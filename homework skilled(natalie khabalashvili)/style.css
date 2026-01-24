@@ -1,0 +1,231 @@
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  background-color: #ffffff;
+  color: #13183f;
+  line-height: 1.5;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.Header-flex {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Header-Button {
+  background-color: #13183f;
+  color: #ffffff;
+  border: none;
+  padding: 14px 32px;
+  border-radius: 28px;
+  font-size: 18px;
+  font-weight: 700;
+}
+.Hero {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 80px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  min-height: 600px;
+}
+.Hero h1 {
+  font-size: 55px;
+  line-height: 120%;
+  margin-bottom: 24px;
+  font-weight: 800;
+  color: #13183f;
+}
+.Hero-button {
+  background: linear-gradient(180deg, #ff6f48, #f02aa6);
+  color: #ffffff;
+  padding: 16px 32px;
+  border-radius: 28px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.Hero-content {
+  max-width: 450px;
+  position: relative;
+  z-index: 10;
+}
+
+.Hero-visual-container {
+  position: relative;
+  width: 500px;
+  height: 600px;
+  flex-shrink: 0;
+}
+
+.rectangle {
+  position: absolute;
+  top: -210px;
+  right: -160px;
+  width: 320px;
+  height: 900px;
+  background: linear-gradient(to bottom, #4851ff, #f02aa6);
+  border-radius: 160px;
+  transform: rotate(45deg);
+  z-index: 1;
+}
+
+.mask {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  width: 317px;
+  height: 560px;
+  background: linear-gradient(to bottom, #ff6f48, #f02aa6);
+  border-radius: 158px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  z-index: 2;
+}
+
+.girl-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.stat {
+  position: absolute;
+  background-color: #ffffff;
+  padding: 16px 24px;
+  border-radius: 15px;
+  box-shadow: 0 34px 54px rgba(6, 22, 141, 0.16);
+  display: flex;
+  flex-direction: column;
+  z-index: 10;
+}
+
+.stat-members {
+  top: 140px;
+  left: 400px;
+}
+
+.stat-hours {
+  bottom: 80px;
+  right: 320px;
+  width: max-content;
+}
+
+.label {
+  font-size: 14px;
+  color: #83869a;
+  font-weight: 700;
+}
+
+.value {
+  font-size: 32px;
+  font-weight: 800;
+  color: #13183f;
+}
+
+.label {
+  font-size: 14px;
+  color: var(--grey);
+  font-weight: 700;
+}
+
+.value {
+  font-size: 32px;
+  font-weight: 800;
+  color: var(--blue-900);
+}
+.Course {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 80px 30px;
+  padding: 80px 20px;
+}
+.Card1 {
+  flex-direction: column;
+  align-items: flex-start;
+  display: flex;
+  text-align: left;
+  font-weight: 800;
+  font-size: 32px;
+  background: linear-gradient(80deg, #ff6f48, #f02aa6);
+  border-radius: 12px;
+  padding: 24px;
+  color: white;
+  width: 288px;
+}
+.Card2,
+.Card3,
+.Card4,
+.Card5,
+.Card6 {
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 25px 50px rgba(6, 22, 141, 0.04);
+  padding: 32px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+}
+.Runing-man {
+  height: 55px;
+  object-fit: cover;
+  position: relative;
+  display: block;
+  margin-top: -45px;
+  z-index: 1;
+  height: 56px;
+}
+
+.Footer {
+  width: 100%;
+  height: 120px;
+  background-color: #13183f;
+  padding: 0 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.Footer-flex {
+  max-width: 1200px;
+  width: 100%;
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.Footer-logo img {
+  height: 30px;
+  display: block;
+}
+
+.Footer-Button {
+  background: linear-gradient(180deg, #4851ff, #f02aa6);
+  color: #ffffff;
+  border: none;
+  padding: 14px 32px;
+  border-radius: 28px;
+  font-size: 18px;
+  cursor: pointer;
+  width: 168px;
+  white-space: nowrap;
+}
