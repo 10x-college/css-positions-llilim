@@ -1,0 +1,108 @@
+.background {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #19a1ae;
+  font-family: "Kumbh Sans", sans-serif;
+  background-image: url(../Background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+/* Profile Card */
+.profile-card {
+  width: 350px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 50px 100px -20px rgba(8, 70, 94, 0.25);
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.profile-header {
+  position: relative;
+  height: 140px;
+}
+
+.profile-header img.Container {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-color: #41cbd3;
+}
+
+/* Avatar */
+.avatar {
+  position: absolute;
+  bottom: -48px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  border: 5px solid #ffffff;
+  background-color: #e8e9ec;
+}
+
+/* Profile Info */
+.profile-info {
+  padding: 72px 24px 24px;
+  text-align: center;
+}
+
+/* Name & age */
+.name {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.age {
+  font-weight: 400;
+  color: #6b7082;
+  margin-left: 6px;
+}
+
+/* Location */
+.location {
+  margin: 8px 0 24px;
+  font-size: 14px;
+  color: #6b7082;
+}
+
+/* Stats section */
+.profile-stats {
+  border-top: 1px solid #e8e9ec;
+  padding-top: 24px;
+}
+
+/* Stats list */
+.stats-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Individual stat */
+.stats-item {
+  text-align: center;
+}
+
+.stats-value {
+  display: block;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.stats-label {
+  font-size: 10px;
+  letter-spacing: 1.5px;
+  color: #6b7082;
+}
